@@ -2,5 +2,15 @@
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.21.0"
-  }
+  },
+  "name": "daily-tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shashank",
+  "license": "ISC"
 }
