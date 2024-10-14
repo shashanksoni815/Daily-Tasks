@@ -1,2 +1,21 @@
-cons
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tasks</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+    <h1>DAILY TASKS</h1> 
+    <div class="card">
+    <% for(task of tasks) {%>
+        <div class="taskCard">
+            <h2 class="task">Task : <%= task.task %></h2>
+            <p class="description">Description : <br> <%= task.description %></p>
+        </div>
+    <% } %>
+    </div>
+</body>
+</html>
 
