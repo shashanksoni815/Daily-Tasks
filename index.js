@@ -30,6 +30,10 @@ let tasks = [
 //     res.send('Hello World')
 //   });
 
+app.get("/tasks/new", (req, res) => {
+    res.render("new.ejs");
+});
+
 app.get("/tasks", (req, res) => {
     res.render("index.ejs", { tasks });
     // res.send("Server is started")
