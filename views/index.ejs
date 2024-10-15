@@ -14,9 +14,14 @@
             <h2 class="task">Task : <%= task.task %></h2>
             <h3 class="description">Description :</h3>  
             <p class="description-Box"><%= task.description %></p> 
+            <a href="http://localhost:8080/tasks/<%=task.id%>"> Show in Detail</a>
         </div>
     <% } %>
     </div>
+
+    <br><br><br>
+
+    <a href="http://localhost:8080/tasks/new"> Create new task!</a>
 </body>
 </html>
 
