@@ -47,7 +47,7 @@ app.post("/tasks", (req, res) => {
 
 app.get("/tasks/:id", (req, res) => {
     let {id} = req.params;
-    // console.log(id);
+    console.log(id);
     let task = tasks.find((t) => id === t.id);
     res.render("show.ejs", {task});
 });
